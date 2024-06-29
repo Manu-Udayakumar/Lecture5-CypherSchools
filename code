@@ -1,0 +1,27 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class NewBehaviourScript : MonoBehaviour
+{
+    int myint=12;
+    float myfloat=12.5f;
+    bool mybool=true;
+
+    public string mystring;
+    // Start is called before the first frame update
+    void Start()
+    {
+        Debug.Log("int is "+myint);
+        Debug.Log("float is "+myfloat);
+        Debug.Log("bool is "+mybool);
+        Debug.Log("string is "+ mystring);
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
